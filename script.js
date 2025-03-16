@@ -1,5 +1,5 @@
 
-function getFormvalue(event) {
+function getFormvalue() {
     event.preventDefault(); // Prevent form submission
     
     const firstName = document.querySelector("input[name='fname']").value.trim();
